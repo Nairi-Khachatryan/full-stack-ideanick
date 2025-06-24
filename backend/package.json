@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "@IdeaNick-Dev-Pont/backend",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -9,9 +9,11 @@
   },
   "dependencies": {
     "@trpc/server": "^11.4.2",
+    "cors": "^2.8.5",
     "express": "^5.1.0"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "@types/node": "^24.0.3",
     "rimraf": "^6.0.1",
