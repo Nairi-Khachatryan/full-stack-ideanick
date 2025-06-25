@@ -6,7 +6,6 @@
     "moduleResolution": "bundler",
     "allowSyntheticDefaultImports": true,
     "tsBuildInfoFile": "./node_modules/.cache/.node.tsbuildinfo"
-
   },
   "include": ["vite.config.ts"]
 }

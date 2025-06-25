@@ -1,6 +1,6 @@
 import { initTRPC } from '@trpc/server'
 
-const ideas = [
+const idea = [
   {
     nick: 'cool-idea-nick-1',
     name: 'Idea 1',
@@ -30,11 +30,9 @@ const ideas = [
 
 const trpc = initTRPC.create()
 
-// const a: number =  1
-
 export const trpcRouter = trpc.router({
   getIdeas: trpc.procedure.query(() => {
-    return { ideas }
+    return { idea }
   }),
 })
 

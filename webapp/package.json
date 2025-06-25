@@ -1,5 +1,5 @@
 {
-  "name": "@IdeaNick-Dev-Pont/webapp",
+  "name": "@ideanick-dev-pont/webapp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,12 +12,13 @@
     "prettify": "prettier --loglevel warn --cache --write '{src/**/*,*}.{ts,tsx,js,json,yml,scss}' '!**/{node_modules,dist}/**/*' "
   },
   "dependencies": {
-    "@IdeaNick-Dev-Pont/backend": "workspace:*",
+    "@ideanick-dev-pont/backend": "workspace:*",
     "@tanstack/react-query": "^5.81.2",
     "@trpc/client": "^11.4.2",
     "@trpc/react-query": "^11.4.2",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
